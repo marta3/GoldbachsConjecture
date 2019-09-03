@@ -25,10 +25,10 @@ function getFirstPrimes(n) {
 
   var primes = [];
 
-  for (var i = 1; i < n; i++) {
+  for (var j = 1; j < n; j++) {
 
-    if (isPrime(i)) {
-      primes.push(i);
+    if (isPrime(j)) {
+      primes.push(j);
     }
   }
 
